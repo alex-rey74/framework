@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "TheFramework\\":"vendor/theframework",
+            "App\\":"src/apps",
+            "Model\\":"src/models",
+            "Entity\\":"src/entity"
+        }
+    },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
